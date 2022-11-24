@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BookComponent } from './Book/Book.component';
+import { BooksStoreComponent } from './BooksStore/BooksStore.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
-      BookComponent
+      BookComponent,
+      BooksStoreComponent
    ],
   imports: [
     BrowserModule
